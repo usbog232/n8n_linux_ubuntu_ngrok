@@ -1,0 +1,14 @@
+mkdir -p ~/.ngrok2
+
+cat <<EOF > ~/.ngrok2/ngrok-ollama.yml
+authtoken: <你的-ngrok-token>
+
+tunnels:
+  n8n:
+    proto: http
+    addr: 5678
+
+  ollama:
+    proto: http
+    addr: 11434
+EOF
