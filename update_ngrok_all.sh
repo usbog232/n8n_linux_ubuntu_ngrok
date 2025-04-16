@@ -1,3 +1,4 @@
+#  bash /root/n8n/update_ngrok_all.sh 查看n8n ngrok地址
 #!/bin/bash
 set -euo pipefail
 
