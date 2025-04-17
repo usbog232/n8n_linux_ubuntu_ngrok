@@ -1,6 +1,6 @@
 # n8n_linux_ubuntu_ngrok
 # n8n + ngrok+ollama 本地部署脚本
-
+ngrokauthtokens获取地址： https://dashboard.ngrok.com/authtokens
 🚀 一键在无公网环境下部署 n8n（HTTPS 访问）并暴露本地 Ollama
 
 ## ✅ 使用方式
