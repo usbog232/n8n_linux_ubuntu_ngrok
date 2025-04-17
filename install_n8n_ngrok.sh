@@ -2,10 +2,12 @@
 
 set -euo pipefail
 
-# === 用户配置 ===
-NGROK_TOKEN="你的-ngrok-token"      # <<< 请替换为你的 ngrok token
-N8N_USER="admin"
-N8N_PASS="yourStrongPassword"
+# === 获取用户输入 ===
+echo "====== 🚀 n8n + ngrok 自动部署开始 ======"
+read -p "🔑 请输入你的 ngrok Authtoken: " NGROK_TOKEN
+read -p "👤 设置 n8n 登录用户名: " N8N_USER
+read -p "🔒 设置 n8n 登录密码: " N8N_PASS
+
 N8N_PORT="5678"
 
 # === 基础设置 ===
