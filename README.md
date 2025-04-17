@@ -1,5 +1,5 @@
 # n8n_linux_ubuntu_ngrok
-# n8n + ngrok 本地部署脚本
+# n8n + ngrok+ollama 本地部署脚本
 
 🚀 一键在无公网环境下部署 n8n（HTTPS 访问）并暴露本地 Ollama
 
@@ -26,4 +26,7 @@ cat /root/n8n/docker-compose.yml | grep WEBHOOK_URL
 
 ✅ 查看 Ollama 的公网地址
 cat /root/n8n/ollama_ngrok_url.txt
+
+# n8n +ngrok
+bash <(curl -s https://raw.githubusercontent.com/usbog232/n8n_linux_ubuntu_ngrok/main/install_n8n_ngrok.sh)
 
