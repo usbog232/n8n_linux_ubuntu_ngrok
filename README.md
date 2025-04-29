@@ -30,3 +30,14 @@ cat /root/n8n/ollama_ngrok_url.txt
 # n8n +ngrok
 bash <(curl -s https://raw.githubusercontent.com/usbog232/n8n_linux_ubuntu_ngrok/main/install_n8n_ngrok.sh)
 
+# n8n + Cloudflare Tunnel Ubuntu 一键安装脚本
+
+## 简介
+这个脚本可以帮助你在 Ubuntu 系统上一键部署 n8n 和 Cloudflare Tunnel，支持 HTTPS 公网访问和开机自启。
+
+## 使用方法
+
+```bash
+curl -L "https://raw.githubusercontent.com/usbog232/n8n_linux_ubuntu_ngrok/refs/heads/main/install_n8n_cloudflare.sh" -o install_n8n_cloudflare.sh
+chmod +x install_n8n_cloudflare.sh
+bash install_n8n_cloudflare.sh
